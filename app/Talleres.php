@@ -1,0 +1,21 @@
+<?php
+/**
+ * Created by IntelliJ IDEA.
+ * User: migue
+ * Date: 4/4/19
+ * Time: 7:21 AM
+ */
+
+namespace App;
+use Illuminate\Database\Eloquent\Model;
+
+
+class Talleres extends Model
+{
+    protected $table = 'talleres';
+    public $timestamps = false;
+    public $incrementing=false;
+    protected  $primaryKey = 'cvetaller';
+
+}
+
